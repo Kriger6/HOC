@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(91, 122, 148);
+  background-color: rgb(94, 105, 204);
   color:white;
   height: 56px
 }
@@ -35,6 +35,6 @@ nav {
   align-items: center;
   padding-top: 60px;
   height: 83.8vh;
-  background-color: aqua;
+  background-color:cornflowerblue;
   color: aliceblue;
 }
