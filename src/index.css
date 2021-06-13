@@ -38,3 +38,18 @@ nav {
   background-color:cornflowerblue;
   color: aliceblue;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+  height: 92.2vh;
+  width: 100%;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.aboutContent {
+  width: 50%;
+}
