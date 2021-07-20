@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "model": "Google Pixel 3",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_1-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3cf7f63acb09d1612c5e5fe29ef76a62555e55fc2303de4513916fceb13fbbff",
+        "price": 799,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "model": "Samsung Note 9",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_2-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6716563492db7fac5d4792be91577c6e6b9ce70f3fc8f4193e09ab458c3fec20",
+        "price": 999,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "model": "Apple iPhone XS",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_3-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d88af6b7af41ea5a8b87da8fe984293f8e8f5032d5fc4a4442c7f8b1aba98c27",
+        "price": 999,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "model": "Samsung Galaxy S9+",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_4-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d561ed8a3ea5f1789546b9c7f6ec52fd288dc990588e3263011f0408e448f348",
+        "price": 840,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "model": "Xiaomi Pocophone F1",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_5-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d056e0e4d1d656af52d699145c57e82c3f477a0ed34883537e50ee9bb5def426",
+        "price": 300,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "model": "Xiaomi Mi 8",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_6-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=57917b344ae2bd3230cd813d52c787d5ccc9b06d4e7356fdd5bf5ca6207bd76d",
+        "price": 400,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "model": "Huawei Mate 10 Pro",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_7-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=af160362149d90885caa49d73d2c0400a32a37c1b805cb6e31c699e91f960b1d",
+        "price": 800,
+        "availability": "available",
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "model": "Samsung Galaxy A7 (2018)",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya72018.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210720%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210720T085547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=77fae872d8fb48d341933143fbdf8a240f2c2ee4e0cbcbbc2fc89e673565f024",
+        "price": 533,
+        "availability": "available",
+        "status": "active"
+    }
+]
