@@ -1,18 +1,17 @@
 import React from 'react'
-import {useEffect, useState} from 'react'
 import index from '../../json/index.json'
-import Product from '../Products/product'
+import ProductCard from '../ProductCard/index'
 
 
 
-export default function Products() {
+export default function ProductsList() {
     
 
     return (
         <div>
             <h1>Products</h1>
             {index.map(index => (
-                <Product key={index.id} props={index}/>
+                <ProductCard key={index.id} props={index}/>
             ))}
             
             

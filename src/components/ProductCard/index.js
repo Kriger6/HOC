@@ -1,10 +1,9 @@
 import React from 'react'
 
-function Product(props) {
-    const {model, price, image, availability, status} = props.props
-    console.log(props);
+function ProductCard(props) {
+    const {model, price, availability, status} = props.props
     return (
-        <div >
+        <div style={{background: "blue"}}>
             <h3>{model}</h3>
             <h4>{price}</h4>
             <h4>{availability}</h4>
@@ -13,4 +12,4 @@ function Product(props) {
     )
 }
 
-export default Product
+export default ProductCard

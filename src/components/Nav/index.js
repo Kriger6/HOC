@@ -15,7 +15,7 @@ export default function Nav() {
                     <h1>Logo</h1>
                 </Link>
                 <ul className="nav-links">
-                    <Link style={navStyle} to="/Products">
+                    <Link style={navStyle} to="/ProductsList">
                         <li>Products</li>
                     </Link>
                     <Link style={navStyle} to="/About">
