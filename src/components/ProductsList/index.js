@@ -13,11 +13,7 @@ function ProductsList() {
             
             {index.map(index => (
                 <Link  key={index.id} to={{
-                    pathname:`ProductsList/${index.id}`,
-                    aboutProps:{
-                        name:'name'
-                    }
-                }} ><ProductCard props={index} /></Link>
+                    pathname:`ProductsList/${index.id}`}} ><ProductCard props={index} /></Link>
             ))}
             
         </div>

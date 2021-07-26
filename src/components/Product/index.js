@@ -2,9 +2,9 @@ import React from 'react'
 import index from '../../json/index.json'
 import withLoading from '../HOC/withLoading';
 
-function Product({match}, aboutProps) {
-    console.log(match, aboutProps);
-    const id = match.params.id
+function Product(props) {
+    console.log(props);
+    const id = props.match.params.id
     return (
         <div>
             <h1>Item</h1>
