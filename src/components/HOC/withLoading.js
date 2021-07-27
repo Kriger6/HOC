@@ -5,7 +5,7 @@ const withLoading = (WrappedComponent) => {
     
     const Withloading = (props) => {
         const [state, setState] = useState(null)
-        setTimeout(() => setState(true), 3000)
+        setTimeout(() => setState(true), 2000)
 
         if(state === null) {
             return <h1>Loading</h1>

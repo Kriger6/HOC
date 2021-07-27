@@ -3,7 +3,6 @@ import index from '../../json/index.json'
 import withLoading from '../HOC/withLoading';
 
 function Product(props) {
-    console.log(props);
     const id = props.match.params.id
     return (
         <div>
