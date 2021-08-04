@@ -6,7 +6,7 @@ function Home() {
         <div>
             <div className="home">
             <h1>Welcome to Phonestore</h1>
-            <h3>We have the latest smartphones on the market</h3>
+            <h5>We have the latest smartphones on the market</h5>
             <Image style={{paddingTop: "100px"}}/>
             </div>
         </div>

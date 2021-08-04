@@ -8,7 +8,7 @@ import withLoading from '../HOC/withLoading'
 
 function ProductsList() {
     return (
-        <div>
+        <div className="productsList">
             <h1>Products</h1>
             
             {index.map(index => (
