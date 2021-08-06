@@ -10,7 +10,8 @@ function Product(props) {
             <h3>{index[id - 1].model}</h3>
             <h3>{index[id - 1].price}</h3>
             <h3>{index[id - 1].availability}</h3>
-            <h3>{index[id - 1].status}</h3>            
+            <h3>{index[id - 1].status}</h3>
+            <img src={index[id - 1].image} alt="smartphone" />            
         </div>
     )
 }

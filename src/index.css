@@ -59,6 +59,18 @@ nav {
   color: black;
 }
 
+.productsList {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
 .productCard {
   background: violet;
+  display: flex;
+  width: 50%;
+}
+
+.productCard img {
+  width: 300px;
 }

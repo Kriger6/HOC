@@ -8,6 +8,7 @@ function ProductCard(props) {
             <h4>{price}</h4>
             <h4>{availability}</h4>
             <h4>{status}</h4>
+            <img src={image} alt="smartphone" />
         </div>
     )
 }

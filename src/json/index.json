@@ -4,55 +4,63 @@
         "model": "Google Pixel 3",
         "price": 799,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_1-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6415ab218b88ecc1c8cf2364d61c65e10917e83f0ef68d903973a1608e12a0da"
     },
     {
         "id": 2,
         "model": "Samsung Note 9",
         "price": 999,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_2-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d8699adedc97fbbc164b4919fca9e049100c0f3604475a763fe9acb89cd9737f"
     },
     {
         "id": 3,
         "model": "Apple iPhone XS",
         "price": 999,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_3-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4d1a05fab90af72a478f12225a944969dddda1a5d1e9a2b2adde19c78bc9f8cc"
     },
     {
         "id": 4,
         "model": "Samsung Galaxy S9+",
         "price": 840,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_4-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=807eccdd10e89153fe20b69e071a965a40e7e61a4040836e112887fb76741230"
     },
     {
         "id": 5,
         "model": "Xiaomi Pocophone F1",
         "price": 300,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_5-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3335335a5673fed4607e7db4f1d1b5bff9cdf84e6fc0d03ed0ece1eea79400d9"
     },
     {
         "id": 6,
         "model": "Xiaomi Mi 8",
         "price": 400,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_6-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a2c7170c34274a47fcd4288715532e4751ef74f1baa180d73fdf9b80435ffe60"
     },
     {
         "id": 7,
         "model": "Huawei Mate 10 Pro",
         "price": 800,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_7-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c93b758409daf6193ba07d39a60fd4d23e29cec2538b500a0565fc711a5794d4"
     },
     {
         "id": 8,
         "model": "Samsung Galaxy A7 (2018)",
         "price": 533,
         "availability": "available",
-        "status": "active"
+        "status": "active",
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya72018.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2de681f746f2f9b542caf9d08f271e7f1c401115f8ea2e81f50010d418ffb8a0"
     }
 ]
