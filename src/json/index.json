@@ -45,7 +45,7 @@
         "price": 400,
         "availability": "available",
         "status": "active",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_6-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T073809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a2c7170c34274a47fcd4288715532e4751ef74f1baa180d73fdf9b80435ffe60"
+        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_1-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20210806%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210806T131130Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eb7b2d8ddef940b3ca9d4ec0e48add2dec89826135aa98a046edc7dd2b88da4e"
     },
     {
         "id": 7,

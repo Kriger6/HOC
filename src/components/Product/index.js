@@ -1,17 +1,22 @@
 import React from 'react'
 import index from '../../json/index.json'
 import withLoading from '../HOC/withLoading';
+import {useEffect, useState} from 'react'
 
 function Product(props) {
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+        fetch('https://the-mobile-store.herokuapp.com/api/phones/').then(response => response.json(response)).then(data => setData(data))
+    }, [])
     const id = props.match.params.id
     return (
         <div>
             <h1>Item</h1>
-            <h3>{index[id - 1].model}</h3>
+            {data !== null ? <>
+            <h3>{data[id - 1].model}</h3> 
             <h3>{index[id - 1].price}</h3>
-            <h3>{index[id - 1].availability}</h3>
-            <h3>{index[id - 1].status}</h3>
-            <img src={index[id - 1].image} alt="smartphone" />            
+            <img src={data[id - 1].image} alt="smartphone" /> </> : <br />}
         </div>
     )
 }
