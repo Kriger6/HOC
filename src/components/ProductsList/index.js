@@ -17,10 +17,11 @@ function ProductsList() {
     return (
         <div className="productsList">
             <h1>Products</h1>
-            
+            <section className="list-section">
             {data !== undefined ? data.map(data => (
                 <Link key={data.id} to={{ pathname:`ProductsList/${data.id}`}} ><ProductCard props={data} /></Link>
             )) : <br/> }
+            </section>
             
         </div>
     )

@@ -1,5 +1,4 @@
 import React from 'react'
-import index from '../../json/index.json'
 import withLoading from '../HOC/withLoading';
 import {useEffect, useState} from 'react'
 
@@ -13,10 +12,12 @@ function Product(props) {
     return (
         <div>
             <h1>Item</h1>
-            {data !== null ? <>
+            {data !== null ? 
+            <>
             <h3>{data[id - 1].model}</h3> 
-            <h3>{index[id - 1].price}</h3>
-            <img src={data[id - 1].image} alt="smartphone" /> </> : <br />}
+            <h3>{data[id - 1].price}</h3>
+            <img src={data[id - 1].image} alt="smartphone" /> 
+            </> : <br />}
         </div>
     )
 }

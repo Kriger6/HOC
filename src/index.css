@@ -57,20 +57,48 @@ nav {
 .productsList a {
   text-decoration: none;
   color: black;
+  background-color: white;
+  width: 40%;
 }
 
 .productsList {
   display: flex;
   width: 100vw;
   flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.productsList h1 {
+  margin-bottom: 40px;
+  margin-top: 40px
+}
+
+.list-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .productCard {
-  background: violet;
+  background-color: white;
   display: flex;
   width: 50%;
 }
 
+.productCard h2:first-child{
+  padding: 10px 0 0 30px;
+  font-weight: lighter;
+}
+
+.productCard h2:nth-child(2) {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
 .productCard img {
-  width: 300px;
+  max-width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
 }

@@ -4,8 +4,8 @@ function ProductCard(props) {
     const {model, price, image} = props.props
     return (
         <div className="productCard">
-            <h4>{model}</h4>
-            <h4>{price}</h4>
+            <h2>{model}</h2>
+            <h2>{price}</h2> 
             <img src={image} alt="smartphone" />
         </div>
     )
