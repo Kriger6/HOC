@@ -5,7 +5,7 @@ function ProductCard(props) {
     return (
         <div className="productCard">
             <h2>{model}</h2>
-            <h2>{price}</h2> 
+            <h2>{price}$</h2> 
             <img src={image} alt="smartphone" />
         </div>
     )

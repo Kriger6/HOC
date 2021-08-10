@@ -4,29 +4,31 @@ import {useEffect, useState} from 'react'
 
 function Product(props) {
     const [data, setData] = useState(null);
-    const [endpoint, setEndpoint] = useState(null)
     
     useEffect(() => {
         const fetchData = async () => {
-            await fetch('https://the-mobile-store.herokuapp.com/api/phones/')
+            await fetch(`https://the-mobile-store.herokuapp.com/api/phones/${window.location.pathname.split('/')[2]}`)
             .then(response => response.json())
             .then(data => setData(data))
-            .then(setEndpoint(window.location.pathname.split('/')[2]))
         }
 
         fetchData()
     }, [])
 
-    console.log(window.location.pathname.split('/')[2]);
-    const id = props.match.params.id
     return (
-        <div>
-            <h1>Item</h1>
+        <div className="product">
             {data !== null && data !== undefined ? 
             <>
-            <h3>{data[id - 1].model}</h3> 
-            <h3>{data[id - 1].price}</h3>
-            <img src={data[id - 1].image} alt="smartphone" /> 
+            <section className="product-section">
+                <div>
+                    <h2>{data.model}</h2> 
+                    <h2>{data.price}$</h2>
+                </div>
+                <img src={data.image} alt="smartphone" />
+            </section>
+            <section className="description-section">
+                <p>{data.description}</p> 
+            </section>
             </> : <br />}
         </div>
     )

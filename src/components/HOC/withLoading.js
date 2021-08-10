@@ -5,10 +5,16 @@ const withLoading = (WrappedComponent) => {
     
     const Withloading = (props) => {
         const [state, setState] = useState(null)
-        setTimeout(() => setState(true), 2000)
+        setTimeout(() => setState(true), 1000)
 
         if(state === null) {
-            return <h1>Loading</h1>
+            return (
+            <div className="loading">
+                <div>
+                    <h1>Loading</h1>
+                </div>
+            </div>
+            )
         } else {
             return <WrappedComponent {...props}/> 
         }
