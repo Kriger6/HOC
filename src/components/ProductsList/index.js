@@ -30,10 +30,3 @@ function ProductsList() {
 export default withLoading(ProductsList)
 
 
-// {
-//     index.map(index => (
-//         <Link key={index.id} to={{
-//             pathname: `ProductsList/${index.id}`
-//         }} ><ProductCard props={index} /></Link>
-//     ))
-// }
